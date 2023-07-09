@@ -17,11 +17,11 @@ let id = Symbol("id"); // description can be added "id"
 
 console.log(id);
 
-// 2. Symbols are always unique --
+// 2. Symbols are always unique
 let id1 = Symbol("id");
 let id2 = Symbol("id");
 
-console.log(id1 === id2); // false --
+console.log(id1 === id2); // false
 
 // 3. Symbols are not automatically converted to strings
 let id3 = Symbol("id");
